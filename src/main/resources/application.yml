@@ -1,0 +1,11 @@
+camunda:
+  client:
+    mode: self-managed
+    auth:
+      method: none
+    grpc-address: http://127.0.0.1:26500
+    prefer-rest-over-grpc: false
+spring:
+  output:
+    ansi:
+      enabled: always
